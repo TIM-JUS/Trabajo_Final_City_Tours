@@ -41,6 +41,49 @@ if (!isset($_SESSION["user"])) {
 			
 		</div>
 	</div>
+	<div class="body">
+		<div class="heading">
+			<h1>Viaja y recorre los lugares turisticos de Huanuco</h1>
+			<br>
+			<p>Considera como el mejor clima del mundo con sus luagres turisticos mejores visitados 
+                y con una amplia varidad de comidas en los lugares turisticos </p>
+			<br>
+			<br>
+			<a href="https://www.ytuqueplanes.com/destinos/huanuco/">Ver mas</a>
+		</div>
+		<div class="tours">
+			<div class="places">
+				<h2>Cotosh</h2>
+				<img src="img4.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="#">15% DE DESCUENTO</a>
+			</div>
+			<div class="places">
+				<h2>Calicanto</h2>
+				<img src="img5.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="#">20% DE DESCUENTO</a>
+			</div>
+			<div class="places">
+				<h2>Hco Viejo</h2>
+				<img src="img6.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="#">25% DE DESCUENTO</a>
+			</div>
+            
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
 
     
 </body>
