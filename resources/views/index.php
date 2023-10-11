@@ -23,7 +23,26 @@ if (!isset($_SESSION["user"])) {
 
 <center><h2><b>"LUGARES TURISTICOS DE HUANUCOO"</b></h2></center>
 
+<div class="navbar">
+		<div class="logo">
+			<h1>Visitar</h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Incio</a></li>
+				<li><a href="#">Servicio</a></li>
+				<li><a href="#">Lugares</a></li>
+				<li><a href="#">Descuentos</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Reserva</a></li>
+			</ul>
+		</div>
+		<div class="signup">
+			
+		</div>
+	</div>
 
+    
 </body>
 </html>
 
