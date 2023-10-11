@@ -76,15 +76,77 @@ if (!isset($_SESSION["user"])) {
             
 		</div>
 	</div>
-	
 
 
 
 
+	<table style="width:100%;">
+	<tr>
+<td colspan="6"><img src="images/fondo.jpg" style="width:100%;"></td>
+</tr>
+
+<h1 class="titulo">LUGARES TURISTICOS DE HUANUCO</h1>
+
+<tr>
+<td colspan="2" style="padding:20px 30px;">
+<img src="images/img1.jpg" style="width:400px; height:267px;">
+<h3>.</h3>
+</td>
+
+</td>
+
+<td colspan="2" style="padding:20px 30px;">
+<img src="images/img2.jpg" style="width:400px; height:267px;">
+<h3>.</h3>
+</td>
+
+</td>
 
 
+<td colspan="2" style="padding:20px 30px;">
+<img src="images/img3.jpg" style="width:400px; height:267px;">
+<h3>.</h3>
+</td>
+
+</td>
 
 
+</tr>
+
+<tr>
+<td colspan="6" style="padding:20px 30px;">
+<h2>.</h2>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding:20px 30px;">
+<img src="images/img4.jpg" style="width:400px; height:267px;">
+<h3>.</h3>
+</td>
+
+
+<td colspan="2" style="padding:20px 30px;">
+<img src="images/img5.jpg" style="width:400px; height:267px;">
+<h3>.</h3>
+</td>
+
+
+<td colspan="2" style="padding:20px 30px;">
+<img src="images/img6.jpg" style="width:400px; height:267px;">
+<h3>.</h3>
+</td>
+
+
+</tr>
+
+
+<tr style="background:blue; ">
+<td colspan="6" align="center" style="padding:10px; color:#fff;">
+<p>.</p>
+</td>
+</tr>
+</table>
     
 </body>
 </html>
