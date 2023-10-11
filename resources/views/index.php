@@ -149,7 +149,7 @@ if (!isset($_SESSION["user"])) {
 
 <tr style="background:blue; ">
 <td colspan="6" align="center" style="padding:10px; color:#fff;">
-<p>.</p>
+<p>KENYI TIMOTEO JUSTO</p>
 </td>
 </tr>
 </table>
