@@ -21,16 +21,9 @@ if (!isset($_SESSION["user"])) {
       <br><b>Haga click en "SALIR" para cerrar sesion</b><br>
       <a href="logout.php" class="btn btn-warning">SALIR</a><br>
 
+<center><h2><b>"LUGARES TURISTICOS DE HUANUCOO"</b></h2></center>
 
 
-
-
-
-
-
-
-
-    
 </body>
 </html>
 
