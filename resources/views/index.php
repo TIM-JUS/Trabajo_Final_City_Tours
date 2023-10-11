@@ -76,6 +76,17 @@ if (!isset($_SESSION["user"])) {
             
 		</div>
 	</div>
+	<div class="footer">
+	    <a href="https://www.facebook.com/kenyi.timjus.9/">Consultas</a>
+		<a href="https://www.facebook.com/kenyi.timjus.9/">Terminos y condiciones</a>
+		<a href="https://www.facebook.com/kenyi.timjus.9/">Priavcidad</a>
+		<a href="https://www.facebook.com/kenyi.timjus.9/">Cookies</a>
+		<a href="https://www.facebook.com/kenyi.timjus.9/">Quejas</a>
+	</div>
+
+
+
+
 
 
 
@@ -90,14 +101,14 @@ if (!isset($_SESSION["user"])) {
 <tr>
 <td colspan="2" style="padding:20px 30px;">
 <img src="images/img1.jpg" style="width:400px; height:267px;">
-<h3>.</h3>
+<h3><center>PLAZA DE ARMAS</center></h3>
 </td>
 
 </td>
 
 <td colspan="2" style="padding:20px 30px;">
 <img src="images/img2.jpg" style="width:400px; height:267px;">
-<h3>.</h3>
+<h3><center>CORONA DEL INCA</center></h3>
 </td>
 
 </td>
@@ -105,7 +116,7 @@ if (!isset($_SESSION["user"])) {
 
 <td colspan="2" style="padding:20px 30px;">
 <img src="images/img3.jpg" style="width:400px; height:267px;">
-<h3>.</h3>
+<h3><center>AGUAS TERMALES</center></h3>
 </td>
 
 </td>
@@ -113,28 +124,23 @@ if (!isset($_SESSION["user"])) {
 
 </tr>
 
-<tr>
-<td colspan="6" style="padding:20px 30px;">
-<h2>.</h2>
-</td>
-</tr>
 
 <tr>
 <td colspan="2" style="padding:20px 30px;">
 <img src="images/img4.jpg" style="width:400px; height:267px;">
-<h3>.</h3>
+<h3><center>PIRURU</center></h3>
 </td>
 
 
 <td colspan="2" style="padding:20px 30px;">
 <img src="images/img5.jpg" style="width:400px; height:267px;">
-<h3>.</h3>
+<h3><center>YERUPAJA</center></h3>
 </td>
 
 
 <td colspan="2" style="padding:20px 30px;">
 <img src="images/img6.jpg" style="width:400px; height:267px;">
-<h3>.</h3>
+<h3><center>CENTRO HUANUCO</center></h3>
 </td>
 
 
@@ -151,3 +157,158 @@ if (!isset($_SESSION["user"])) {
 </body>
 </html>
 
+<style>
+h3{
+  font-weight: bold; 
+  color: green;
+}
+
+h2{
+    color:red;
+}
+.titulo {
+    color: blue; /* Cambia "blue" al color azul que desees */
+    text-align: center; /* Para centrar el texto horizontalmente */
+	font-weight: bold;
+}
+    *{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #ff0000;
+}
+.signup a:hover{
+	background-color: red;
+	transition: 0.6s;
+}
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: red;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color: #000;
+}
+.places a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #fff;
+}
+.places a:hover{
+	background-color: #000;
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+
+
+
+
+a 
+{
+  text-decoration:none;
+}
+
+*
+{
+  margin:0;
+ padding:0;
+}
+</style>
